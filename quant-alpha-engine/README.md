@@ -202,22 +202,6 @@ Out-of-sample factor attribution ranked the following signals as having the high
 
 ---
 
-## 💼 Resume Bullet Points (Ready to Copy-Paste)
-
-Add this project to your CV under **PROJECTS**:
-
-```markdown
-QuantAlpha: Walk-Forward ML Alpha Engine & Systematic Backtester | Python, Scikit-learn, yfinance, Gradio
-• Engineered an institutional quantitative ML pipeline in Python to forecast forward 5-day excess returns (Alpha) over the S&P 500 (SPY) across multi-asset universes.
-• Formulated 28 quantitative alpha factors across Momentum (RSI, MACD), Mean Reversion (Bollinger %B), Volatility (Parkinson High-Low), and Market Regimes (60-day Rolling Beta), verifying stationarity using Augmented Dickey-Fuller (ADF) tests.
-• Implemented Purged Walk-Forward Time-Series Cross-Validation with expanding windows and embargo buffers, eliminating lookahead bias and overlapping label leakage.
-• Benchmarked Logistic Regression, Random Forest, and Gradient Boosting classifiers, achieving out-of-sample ROC-AUC of 0.58–0.63 with Explainable AI (Permutation & Gini factor attribution).
-• Built a vectorized backtesting engine modeling 10 bps transaction friction and execution latency; outperformed Buy-and-Hold on risk-adjusted metrics (Sharpe Ratio 1.39 vs 0.38, Max Drawdown -17.2% vs -30.9%).
-• Deployed an interactive Gradio web dashboard featuring dynamic Plotly visualizations for real-time ticker screening and factor sensitivity analysis.
-```
-
----
-
 ## 📜 References & Literature
 
 - **López de Prado, M.** (2018). *Advances in Financial Machine Learning*. John Wiley & Sons.
